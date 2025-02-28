@@ -1,0 +1,23 @@
+* {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  input {
+    border: 1px solid white;
+  }
+  #number-label, #email-label, number-label {
+    display: block;
+  
+  }
+  
+  hr {
+    height: 0.2em;
+    background-color: black;
+    border-color: 5px solid white;
+  }
+  fieldset {
+    margin: 15px 0 10px 0;
+  }

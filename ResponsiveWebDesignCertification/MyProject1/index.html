@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  <head>
+  <body>
+    <h1 id="title">Complete survey</h1>
+    <p id="description">Complete the survey to receive 25% discount on next meal!</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name: <input placeholder="What's your name?" type="text" id="name" required></label>
+      <label id="email-label" for="email">Email: <input placeholder="example@smth.com" type="email" id="email" required></label>
+      <label id="number-label" for="number">Rating you would give for service: <input placeholder=" 6-11"type="number" id="number" min=6 max=11></label>
+      <hr>
+      <fieldset>
+        <legend> Address </legend>
+      <select id="dropdown">
+        <option selected disabled>Where did you eat?</option>
+        <option>Street1</option>
+        <option>Street2</option>
+      </select>
+      </fieldset>
+      <fieldset>
+        <legend>Whats better?</legend>
+        <label>Food<input type="radio" name="service" value="F"></label>
+        <label>Service<input type="radio" name="service" value="S"></label>
+        <label>Both<input type="radio" name="service" value="B"></label>
+      </fieldset>
+      <fieldset>
+        <legend>Give us feedback</legend>
+        <textarea id="bio" placeholder="Food was amazing!"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>How would you rate this survey</legend>
+        <label>GOOD
+        <input type="checkbox" value="g"</label>
+        <label>BAD <input type="checkbox" value="b"></label>
+        <p>if you chose both it means neutral<p>
+      </fieldset>
+      <input type="submit" id="submit">
+    </form>
+  </body>
+<html>
