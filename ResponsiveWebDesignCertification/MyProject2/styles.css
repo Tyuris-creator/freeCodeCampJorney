@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-content;
+  }
+  
+  #title {
+    text-align:center;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(269, 33%, 82%);
+  }
+  body {
+    background-color: hsl(269, 20%, 65%);
+  }
+  
+  
+  p {
+    text-align:center;
+    font-style: Italic;
+    font-weight: bold;
+  }
+  
+  #tribute-info {
+    border: 2px solid white;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: black;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  img {
+    display: block;
+  }
+  #image {
+    margin: 0 auto;
+    justify-content:center;
+    max-width: 100%;
+    height: auto;
+  }
+  #img-caption {
+    text-align: center;
+  }
+  
+  
+  
