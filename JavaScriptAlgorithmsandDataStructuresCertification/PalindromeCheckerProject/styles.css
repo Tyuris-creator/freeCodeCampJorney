@@ -1,0 +1,30 @@
+*{
+    background-color: grey;
+  }
+  #container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #check-btn{
+    border: 2px solid white;
+    background-color: green;
+    font-size: large;
+  }
+  #check-btn:hover{
+    background-color: lightgreen;
+  }
+  #text-input{
+    border: 3px dashed black;
+    margin: 10px;
+    background-color: white;
+    font-size: large
+  }
+  
+  #result{
+    background-color: white;
+    font-size: large;
+  }
